@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>College Event Registration</title>
 </head>
 <body>
-   hi choti
+
+<h1>College Event Registration Form</h1>
+
+<form id="eventForm">
+
+    <label>Name:</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label>Class:</label><br>
+    <input type="text" id="class"><br><br>
+
+    <label>Roll Number:</label><br>
+    <input type="text" id="roll"><br><br>
+
+    <label>Select Event:</label><br>
+
+    <select id="event">
+        <option>Coding Competition</option>
+        <option>Hackathon</option>
+        <option>Robotics</option>
+        <option>Quiz Contest</option>
+        <option>Gaming Tournament</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
